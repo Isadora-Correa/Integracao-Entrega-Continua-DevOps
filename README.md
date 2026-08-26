@@ -13,7 +13,7 @@ O objetivo é registrar a evolução dos estudos ao longo do semestre e manter, 
 | 01 | Organização inicial da disciplina | [Tarefa 01](Aula01/Tarefa01/Atividade01.md) | ✅ Concluída |
 | 02 | Git, GitHub e controle de versão | [Tarefa 02](Aula02/Tarefa02/Atividade02.md) | ✅ Concluída |
 | 03 | Gerência de configuração e deploy | [Tarefa 03](Aula03/Tarefa03/Atividade03.md) | ✅ Concluída |
-| 04 | Ferramentas de integração e entrega contínua | [Tarefa 04](Aula04/Tarefa04/Atividade04.md) | 📝 Em elaboração |
+| 04 | Ferramentas de integração e entrega contínua | [Tarefa 04](Aula04/Tarefa04/Atividade04.md) | ✅ Concluída |
 
 ## 🗂️ Organização do repositório
 
