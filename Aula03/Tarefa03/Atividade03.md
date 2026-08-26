@@ -117,6 +117,7 @@ A atividade demonstrou o ciclo completo de preparação e publicação de um pro
 ## 🔗 Recursos
 
 - [Repositório do projeto no GitHub](https://github.com/Isadora-Correa/copia-versionamento)
+- [Link do projeto na Vercel](https://fatec-devops.vercel.app/)
 
 ## 🧭 Navegação
 
