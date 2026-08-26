@@ -73,11 +73,6 @@ O grupo foi definido, o repositório foi criado e passou a funcionar como ambien
 
 [ProjetoGrupo-DevOps](https://github.com/Isadora-Correa/ProjetoGrupo-DevOps)
 
-### Aplicação publicada
-
-[projetogrupo-devops.vercel.app](https://projetogrupo-devops.vercel.app/)
-
----
 
 ## Navegação
 
