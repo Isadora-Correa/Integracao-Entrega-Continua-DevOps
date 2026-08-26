@@ -1,36 +1,28 @@
-# Tarefa 01 — Organização Inicial da Disciplina
+# Tarefa 01 — Organização inicial da disciplina
 
-**Aula 01**  
-**Prazo:** 15 de agosto de 2026 às 23:59  
-**Status:** ✅ Concluída
+> **Aula:** 01
+>
+> **Prazo:** 15 de agosto de 2026, às 23h59
+>
+> **Status:** ✅ Concluída
 
-[← Voltar ao repositório principal](../../README.md)
+[← Voltar ao README principal](../../README.md)
 
----
+## 🎯 Objetivo
 
-## Objetivo
+Organizar os grupos de trabalho da disciplina e preparar a estrutura que será utilizada durante o semestre.
 
-A primeira atividade teve como objetivo organizar os grupos de trabalho da disciplina e preparar a estrutura que será utilizada durante o semestre.
+Como parte da atividade, foi criado um repositório no GitHub para desenvolver e armazenar as atividades propostas, além de documentar os conteúdos trabalhados em aula.
 
-Como parte da atividade, foi criado um repositório no GitHub destinado ao desenvolvimento e armazenamento das atividades propostas, além da documentação dos conteúdos trabalhados em aula.
+## 📋 Proposta da atividade
 
----
+1. Formar grupos de três a cinco integrantes.
+2. Manter a mesma composição do grupo durante as atividades semanais.
+3. Criar um repositório no GitHub para ser utilizado ao longo do semestre.
+4. Criar um arquivo Markdown com um resumo da Aula 01.
+5. Realizar a avaliação diagnóstica disponibilizada pelo professor.
 
-## Proposta da atividade
-
-Foram solicitadas as seguintes etapas:
-
-1. formar grupos de 3 a 5 integrantes;
-2. manter a mesma composição do grupo durante as atividades semanais;
-3. criar um repositório no GitHub para utilização durante o semestre;
-4. criar um arquivo Markdown contendo um resumo da Aula 01;
-5. realizar a avaliação diagnóstica disponibilizada pelo professor.
-
----
-
-## Grupo
-
-O grupo definido para realização das atividades é composto por:
+## 👥 Grupo
 
 - Isadora Correa de Carvalho
 - Maria Júlia Loureiro da Costa Alves
@@ -38,44 +30,29 @@ O grupo definido para realização das atividades é composto por:
 - Ronaldo Araujo Silva Junior
 - Sophia Marcelino de Araújo
 
----
+## 🛠️ Desenvolvimento
 
-## Desenvolvimento
+Primeiro, foi formado o grupo responsável pelas atividades da disciplina. Em seguida, foi criado um repositório no GitHub para centralizar os arquivos e permitir que todos os integrantes trabalhassem sobre uma mesma base.
 
-Inicialmente foi realizada a formação do grupo que será responsável pelo desenvolvimento das atividades durante a disciplina.
-
-Em seguida, foi criado um repositório no GitHub para centralizar os arquivos e permitir que os integrantes trabalhassem sobre uma mesma base.
-
-A utilização do GitHub também permitiu iniciar o contato prático com conceitos que seriam aprofundados durante as aulas seguintes, principalmente relacionados a:
+Esse processo também proporcionou o primeiro contato prático com conceitos que seriam aprofundados nas aulas seguintes, como:
 
 - organização de projetos;
 - armazenamento de código;
-- documentação utilizando Markdown;
-- utilização de repositórios remotos;
-- colaboração em grupo;
+- documentação com Markdown;
+- uso de repositórios remotos;
+- colaboração em equipe;
 - publicação de aplicações.
 
-Além da criação do repositório, foi elaborado o resumo solicitado para a primeira aula e realizada a avaliação diagnóstica.
+Além da criação do repositório, o grupo elaborou o resumo solicitado para a primeira aula e realizou a avaliação diagnóstica.
 
----
+## ✅ Resultado
 
-## Resultado
+As etapas iniciais necessárias para o desenvolvimento das atividades da disciplina foram concluídas. O grupo foi definido e o repositório passou a funcionar como ambiente central dos exercícios realizados durante o semestre.
 
-Ao final da atividade foram concluídas as etapas iniciais necessárias para o desenvolvimento das atividades da disciplina.
+## 🔗 Recursos
 
-O grupo foi definido, o repositório foi criado e passou a funcionar como ambiente central para os primeiros exercícios realizados.
+- [Repositório ProjetoGrupo-DevOps](https://github.com/Isadora-Correa/ProjetoGrupo-DevOps)
 
----
+## 🧭 Navegação
 
-## Links
-
-### Repositório da atividade
-
-[ProjetoGrupo-DevOps](https://github.com/Isadora-Correa/ProjetoGrupo-DevOps)
-
-
-## Navegação
-
-[← Voltar ao README principal](../../README.md)
-
-[Próxima atividade → Tarefa 02](../../Aula02/Tarefa02/Atividade02.md)
+[← README principal](../../README.md) · [Tarefa 02 →](../../Aula02/Tarefa02/Atividade02.md)
