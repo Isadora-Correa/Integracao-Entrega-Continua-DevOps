@@ -60,3 +60,18 @@ Projeto/
 ├── index.html
 ├── style.css
 └── script.js
+```
+
+---
+
+## Links
+
+### Repositório da atividade
+
+[ProjetoGrupo-DevOps](https://github.com/Isadora-Correa/ProjetoGrupo-DevOps)
+
+### Aplicação publicada
+
+[projetogrupo-devops.vercel.app](https://projetogrupo-devops.vercel.app/)
+
+---
