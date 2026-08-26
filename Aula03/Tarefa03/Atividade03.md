@@ -3,7 +3,7 @@
 
 ## `Aula03/Tarefa03/Atividade03.md`
 
-```md
+
 # Tarefa 03 — Gerência de Configuração e Deploy
 
 **Aula 03**  
