@@ -14,6 +14,7 @@ O objetivo é registrar a evolução dos estudos ao longo do semestre e manter, 
 | 02 | Git, GitHub e controle de versão | [Tarefa 02](Aula02/Tarefa02/Atividade02.md) | ✅ Concluída |
 | 03 | Gerência de configuração e deploy | [Tarefa 03](Aula03/Tarefa03/Atividade03.md) | ✅ Concluída |
 | 04 | Ferramentas de integração e entrega contínua | [Tarefa 04](Aula04/Tarefa04/Atividade04.md) | ✅ Concluída |
+| 05 | Pipeline de integração contínua com GitHub Actions | [Tarefa 05](Aula05/Tarefa05/Atividade05.md) | ✅ Concluída |
 
 ## 🗂️ Organização do repositório
 
@@ -38,6 +39,10 @@ Cada aula possui uma pasta própria, dividida entre o material apresentado em sa
 │   ├── Referência/
 │   └── Tarefa04/
 │       └── Atividade04.md
+├── Aula05/
+│   ├── Conteúdo/
+│   └── Tarefa05/
+│       └── Atividade05.md
 └── README.md
 ```
 
@@ -48,6 +53,7 @@ Cada aula possui uma pasta própria, dividida entre o material apresentado em sa
 - HTML, CSS e JavaScript;
 - React e Vite;
 - integração e entrega contínua (CI/CD);
+- criação de pipelines com GitHub Actions;
 - gerenciamento de configuração;
 - build e deploy na Vercel;
 - documentação com Markdown.
