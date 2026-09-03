@@ -2,7 +2,7 @@
 
 > **Aula:** 05
 >
-> **Prazo:** não informado
+> **Prazo:** 12 de setembro de 2026, às 23h59
 >
 > **Status:** ✅ Concluída
 
