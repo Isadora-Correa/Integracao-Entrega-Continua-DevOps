@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Baixar o repositório
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       - name: Preparar a documentação
         run: |
@@ -26,7 +26,7 @@ jobs:
           test -f dist/Aula06/Tarefa06/Atividade06.md
 
       - name: Salvar arquivos preparados
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: site-documentacao
           path: dist
@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Baixar o repositório
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       - name: Validar estrutura e links locais
         shell: python
@@ -72,7 +72,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Baixar o repositório
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       - name: Verificar o padrão dos arquivos Markdown
         shell: python
@@ -98,7 +98,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Baixar o repositório
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       - name: Procurar credenciais expostas
         shell: python
@@ -135,7 +135,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Recuperar a documentação
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: site-documentacao
           path: dist
@@ -146,7 +146,7 @@ jobs:
           tar -tzf documentacao-devops.tar.gz > /dev/null
 
       - name: Salvar o pacote
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: pacote-documentacao
           path: documentacao-devops.tar.gz
@@ -158,13 +158,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Recuperar a documentação
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: site-documentacao
           path: dist
 
       - name: Publicar no GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4.0.0
+        uses: peaceiris/actions-gh-pages@v4.1.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
@@ -175,7 +175,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Baixar a versão publicada
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           ref: gh-pages
 
@@ -191,7 +191,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Baixar a versão publicada
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           ref: gh-pages
 
@@ -207,7 +207,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Baixar o repositório
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       - name: Confirmar a publicação
         run: |

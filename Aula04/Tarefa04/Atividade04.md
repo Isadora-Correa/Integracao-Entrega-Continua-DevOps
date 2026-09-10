@@ -207,7 +207,7 @@ Uma organização também pode combinar ferramentas. Por exemplo, é possível m
 ## 🔗 Recursos
 
 - [Artigo na MDPI](https://www.mdpi.com/1999-5903/17/4/153)
-- [Material da Aula 04](<../Conteúdo/Aula 04 - Ferramentas de Integração e Entrega Contínua.pdf>)
+- [Material da Aula 04](<../Conteúdo/Aula 04 - Ferramentas de Integração e Entrega Contínua.pdf>)
 - [Artigo disponível no repositório](../Referência/futureinternet-17-00153.pdf)
 
 ## 📚 Referência

@@ -169,7 +169,7 @@ Além da publicação automatizada na branch `gh-pages`, a aplicação também e
 - [Aplicação publicada na Vercel](https://pipelinedevops.vercel.app/)
 - [Repositório Pipeline-Devops](https://github.com/Isadora-Correa/Pipeline-Devops)
 - [Workflow da pipeline](https://github.com/Isadora-Correa/Pipeline-Devops/blob/main/.github/workflows/pipeline.yml)
-- [Material da Aula 05](<../Conteúdo/Aula 05 - Pipeline de Integração Contínua.pdf>)
+- [Material da Aula 05](<../Conteúdo/Aula 05 - Pipeline de Integração Contínua.pdf>)
 
 ## 🧭 Navegação
 

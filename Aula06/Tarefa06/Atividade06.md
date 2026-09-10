@@ -52,10 +52,10 @@ Também foi incluído o gatilho `workflow_dispatch`, que permite iniciar uma exe
 
 | Action | Função na pipeline |
 | --- | --- |
-| `actions/checkout@v5` | Baixa o conteúdo do repositório no ambiente de execução |
-| `actions/upload-artifact@v4` | Armazena temporariamente a documentação e o pacote gerados |
-| `actions/download-artifact@v4` | Recupera os artefatos em jobs posteriores |
-| `peaceiris/actions-gh-pages@v4.0.0` | Publica a documentação na branch `gh-pages` |
+| `actions/checkout@v7` | Baixa o conteúdo do repositório no ambiente de execução |
+| `actions/upload-artifact@v7` | Armazena temporariamente a documentação e o pacote gerados |
+| `actions/download-artifact@v8` | Recupera os artefatos em jobs posteriores |
+| `peaceiris/actions-gh-pages@v4.1.0` | Publica a documentação na branch `gh-pages` |
 
 ### Etapas da pipeline
 
@@ -161,7 +161,7 @@ A atividade permanecerá marcada como **em andamento** até que a análise dos t
 
 - [Workflow da Tarefa 06](../../.github/workflows/pipeline.yml)
 - [Repositório da disciplina](https://github.com/Isadora-Correa/Integracao-Entrega-Continua-DevOps)
-- [Material da Aula 06](<../Conteúdo/Aula 06 - Revisão Ferramentas e Pipelines.pdf>)
+- [Material da Aula 06](<../Conteúdo/Aula 06 - Revisão Ferramentas e Pipelines.pdf>)
 
 ## 🧭 Navegação
 
