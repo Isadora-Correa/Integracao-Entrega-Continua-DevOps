@@ -320,4 +320,4 @@ As configurações e os históricos foram consultados em **10 de setembro de 202
 
 ## 🧭 Navegação
 
-[← Tarefa 05](../../Aula05/Tarefa05/Atividade05.md) · [README principal](../../README.md)
+[← Tarefa 05](../../Aula05/Tarefa05/Atividade05.md) · [README principal](../../README.md) · [Tarefa 07 →](../../Aula07/Tarefa07/Atividade07.md)
