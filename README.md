@@ -17,6 +17,7 @@ O objetivo é registrar a evolução dos estudos ao longo do semestre e manter, 
 | 05 | Pipeline de integração contínua com GitHub Actions | [Tarefa 05](Aula05/Tarefa05/Atividade05.md) | ✅ Concluída |
 | 06 | Integração de pipeline e análise de repositórios | [Tarefa 06](Aula06/Tarefa06/Atividade06.md) | ✅ Concluída |
 | 07 | Testes automatizados e pipeline de CI | [Tarefa 07](Aula07/Tarefa07/Atividade07.md) | ✅ Concluída |
+| 09 | Documentação de software | [Tarefa 09](Aula09/Tarefa09/Atividade09.md) | 🔄 Em revisão |
 
 ## 🗂️ Organização do repositório
 
@@ -53,6 +54,10 @@ Cada aula possui uma pasta própria, dividida entre o material apresentado em sa
 │   ├── Conteúdo/
 │   └── Tarefa07/
 │       └── Atividade07.md
+├── Aula09/
+│   ├── Conteúdo/
+│   └── Tarefa09/
+│       └── Atividade09.md
 └── README.md
 ```
 
@@ -69,6 +74,7 @@ Cada aula possui uma pasta própria, dividida entre o material apresentado em sa
 - Jest, Supertest e k6;
 - gerenciamento de configuração;
 - build e deploy na Vercel;
+- documentação de software: requisitos, arquitetura e diagramas Mermaid;
 - documentação com Markdown.
 
 ## 👥 Equipe
