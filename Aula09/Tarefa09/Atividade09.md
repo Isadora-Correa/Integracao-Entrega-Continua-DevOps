@@ -105,7 +105,7 @@ A análise do código para a documentação revelou problemas que foram corrigid
 | Oito rotas antigas, fora do menu, retornavam erro 500 | Passaram a redirecionar para as telas equivalentes |
 | O README dos testes E2E afirmava que eles usavam SQLite e que a recuperação de senha era apenas visual | Texto corrigido |
 
-As correções foram enviadas pela [PR #9](https://github.com/Oroboni/InsEmpodera/pull/9). Os testes continuaram aprovados depois delas (220 no backend e 157 na interface).
+As correções foram integradas à branch `main` pela [PR #9](https://github.com/Oroboni/InsEmpodera/pull/9), mantendo a branch `Online` para o desenvolvimento. Os testes continuaram aprovados depois delas (220 no backend e 157 na interface).
 
 Permanecem como pontos de atenção para a equipe: o projeto não possui migrations, e o repositório contém dados de comunidades e pessoas, além de detalhes da infraestrutura AWS.
 
