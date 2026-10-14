@@ -4,7 +4,7 @@
 >
 > **Prazo:** 24 de outubro de 2026, às 23h59
 >
-> **Status:** 🔄 Em revisão
+> **Status:** ✅ Concluída
 
 [← Voltar ao README principal](../../README.md)
 
@@ -89,16 +89,25 @@ Os comandos documentados foram executados em um ambiente macOS com .NET SDK 10 e
 | Criação do banco MySQL pelo EF Core e execução em `Development` | Banco criado com 34 tabelas; login validado em `https://localhost:7121` |
 | Testes de backend | 220 aprovados |
 | Testes de interface | 157 aprovados |
+| Importação do `Banco.txt` corrigido e uso da aplicação sobre ele | Sem erros; login e telas principais funcionando |
 
 Os testes E2E e o script `testar.ps1` não foram executados, pois dependem do PowerShell e do download do Chromium.
 
-## ⚠️ Principais descobertas
+## 🛠️ Problemas encontrados e correções
 
-- A branch `main` do InsEmpodera está desatualizada; o código atual está na branch `Online`.
-- O projeto não possui migrations: o esquema é criado pelo EF Core apenas no ambiente `Testing`.
-- A versão atual do `Banco.txt` não é compatível com o modelo da aplicação e falhou ao ser importada.
-- Algumas rotas antigas, fora do menu, retornam erro 500 por não terem página correspondente.
-- O repositório contém dados de comunidades e pessoas, além de detalhes da infraestrutura AWS, que merecem revisão pela equipe.
+A análise do código para a documentação revelou problemas que foram corrigidos no próprio projeto:
+
+| Problema encontrado | Correção |
+| --- | --- |
+| A branch `main` estava 173 commits atrás da `Online` | Integrada pela [PR #8](https://github.com/Oroboni/InsEmpodera/pull/8) |
+| O `Banco.txt` tinha as chaves trocadas para `binary(16)` e falhava na importação | Restaurados os tipos originais, compatíveis com a aplicação, com valores padrão aceitos pelo MySQL e pelo MariaDB |
+| `Database/Empodera.schema.sql` estava desatualizado, sem as colunas do Identity | Regenerado a partir do modelo atual |
+| Oito rotas antigas, fora do menu, retornavam erro 500 | Passaram a redirecionar para as telas equivalentes |
+| O README dos testes E2E afirmava que eles usavam SQLite e que a recuperação de senha era apenas visual | Texto corrigido |
+
+As correções foram enviadas pela [PR #9](https://github.com/Oroboni/InsEmpodera/pull/9). Os testes continuaram aprovados depois delas (220 no backend e 157 na interface).
+
+Permanecem como pontos de atenção para a equipe: o projeto não possui migrations, e o repositório contém dados de comunidades e pessoas, além de detalhes da infraestrutura AWS.
 
 ## 🔗 Referências
 
