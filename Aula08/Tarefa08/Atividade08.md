@@ -2,7 +2,7 @@
 
 > **Aula:** 08
 >
-> **Formato:** apresentação em grupo, de 15 a 20 minutos
+> **Prazo:** 7 de outubro de 2026, com apresentação em aula (de 15 a 20 minutos, em grupo)
 >
 > **Status:** ✅ Concluída
 
